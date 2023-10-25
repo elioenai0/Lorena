@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!--CONFIGURAÇÕES DE CRIAÇÃO-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fono Lorena</title>
+
+    <!--CONEXÕES: ARQUIVOS INTERNOS-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--CONEXÕES: ARQUIVOS INTERNOS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sassy+Frass&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id="logo"></div>
+        <div id="Assinatura">Lorena Gomes</div>
+        <div>Fonoaudióloga Especialista em disfagia</div>
+    </header>
+
+    <div id="direcionador">
+        <span onclick="menu()" class="material-symbols-outlined"> menu </span>
+        <nav>
+            <a href="">LORENA GOMES</a>
+            <a href="">BEBÊ VIRTUAL</a>
+            <a href="">SERVIÇOS</a>
+            <a href="">CONTATO</a>
+            <a href="">EVENTOS</a>
+        </nav>
+    </div>
+
+    <!--.............MUTÁVEIS...............-->
+
+    <div id="tela">
+        <div class="letraDaTela">Fono Lorena</div>
+    </div>
+
+    <input type="hidden" id="contadorTela" value="0"></div>
+
+    <span id="logger_log"></span>
+
+    <div id="fundoTabela">
+        <table>
+            <tr>
+                <td class="info">Amamentação</td>
+                <td class="img" id="img1"></td>
+                <td class="info">Desafios Alimentares</td>
+                <td class="img" id="img2"></td>
+            </tr>
+            <tr>
+                <td class="img" id="img3"></td>
+                <td class="info">Fala</td>
+                <td class="img" id="img4"></td>
+                <td class="info">Disfagia</td>
+
+            </tr>
+        </table>
+    </div>
+    <div id="depoimentos">
+        <div class="letraDaTela">Depoimentos</div>
+        <p id="nome">Elioenai Oliveira, Paulínia(SP)</p>
+        <p id="fala">A Lorena atendeu minha sobrinha, que tinha um problema de fala. Super atenciosa e simpática, ganhou fácil a atenção da menina. Em apenas uma sessão foi suficiente para atingir os objetivos. Claramente domina todas as técnicas para a eficácia no tratamento.</p>
+        <span id="voltar"  class="material-symbols-outlined">arrow_back</span> <span id="avancar"  class="material-symbols-outlined">arrow_forward</span>
+    </div>
+    <input type="hidden" id="contador" value="0">
+    
+    <!--.............CONNECT...............-->
+    <footer>Desenvolvido por: Elioenai Technologies</footer>
+
+    <script src="tendoes.js"></script>
+</body>
+</html>
